@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-header">
+       <div class="btnNewGame">
+          <button class="btn">New Game</button>
+       </div>
+       <div class="chances">
+          <div class="imgChance">
+             <img class="starImg" id="star-1" src="star.png" alt="heart">
+          </div>
+          <div class="imgChance">
+             <img class="starImg" id="star-2" src="star.png" alt="heart">
+          </div>
+          <div class="imgChance">
+             <img class="starImg" id="star-3" src="star.png" alt="heart">
+          </div>
+          <div class="imgChance">
+             <img class="starImg" id="star-4" src="star.png" alt="heart">
+          </div>
+          <div class="imgChance">
+             <img class="starImg" id="star-5"  src="star.png" alt="heart">
+          </div>
+       </div>
+    </div>
+    <div class="file-design">
+       <div class="header-files">
+          <div class="block-file">
+             <!-- color -->
+          </div>
+          <div class="block-file second-file">
+             <!-- color -->
+          </div>
+          <div class="close-sign">
+             <span class="sign">о</span>
+             <span class="sign">_</span>
+             <span class="sign">x</span>
+          </div>
+       </div>
+       <div class="header-files search">
+          <div class="search-signs">
+             <span>←</span>
+             <span>→</span>
+          </div>
+          <div class="search-box">
+             <p class="range">⌕ Guess my number between 1 and 100</p>
+             <!-- color -->
+          </div>
+          <div class="search-signs">
+             <span>♡</span>
+          </div>
+       </div>
+       <div class="main-part">
+          <div class="blockFace">
+             <div class="big-border">
+                <div class="outer-border">
+                   <div class="inner-border">
+                      <p class="style-text" id="textFace"></p>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="box">
+             <div class="container">
+                <input id="inputField" class="inputGuess" type="text" placeholder="type your number...">
+                <button id="submit" class="btn btn-play">Check</button>
+             </div>
+          </div>
+       </div>
+    </div>
+    <div class="messageBox">
+       <div class="heading">
+          <h4 class="header">✉ To: YOU</h4>
+       </div>
+       <div class="heading">
+          <h4 class="header">✉ From: Computer</h4>
+       </div>
+       <div class="messageTextBox">
+          <p class="message"></p>
+       </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+ </body>
+</html>
