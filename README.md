@@ -1,7 +1,7 @@
 # The Number Guessing Game
 The game requires the player to guess a number that was set by the computer and the player only has five attempts to do so. 
 
-The instructions are as follows:
+## The instructions are as follows:
  * the user input the desired starting value, and that value must be between 1 and 100
  * the program should display a message that the number they chose is either too high or too low, and that they have less than five attempts left.
  * the user can choose another number until they get the correct number within five attempts.
@@ -13,5 +13,7 @@ The instructions are as follows:
 ## Requirements
 No special requirements
 
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 
